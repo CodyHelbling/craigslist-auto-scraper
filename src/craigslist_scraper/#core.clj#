@@ -24,7 +24,7 @@
      (if (> (count attr-group) index)
        (do
          (println "Count: " (count attr-group) " Index: " index)
-         (println (> (count attr-group) index))
+         (println (> (count attr-group) index))                              
          (if attr-group
            (trim-attr-group attr-group (conj attributes {(keyword attribute-name) attribute-content}) (inc index))
            (trim-attr-group attr-group attributes                                                     (inc index)))
