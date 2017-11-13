@@ -1,0 +1,20 @@
+(ns craigslist-scraper.core
+  (:require
+   [hickory.select :as s]
+   [clj-http.client :as client]
+   [clojure.string :as string])
+  (:use
+   hickory.core)
+  (:gen-class))
+
+
+(def site-htree (-> (client/get "https://boise.craigslist.org/cto/d/2002-audi-a4-18t-quattro-awd/6360607619.html") :body parse as-hickory))
+(def title (nth (get site-htree :content) 1))
+(def title-maybe (-> (s/select (s/descendant (s/tag "title"))
+                               site-htree)))
+
+(defn -main
+  "I don't do a whole lot ... yet."
+  [& args]
+  ; (dorun (map clojure.pprint/pprint site-htree))
+  (clojure.pprint/pprint title-maybe))

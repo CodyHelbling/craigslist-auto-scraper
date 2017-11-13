@@ -1,0 +1,1650 @@
+{:type :document,
+ :content
+ [{:type :document-type,
+   :attrs {:name "html", :publicid "", :systemid ""}}
+  {:type :element,
+   :attrs {:class "no-js"},
+   :tag :html,
+   :content
+   [{:type :element,
+     :attrs nil,
+     :tag :head,
+     :content
+     ["\n"
+      {:type :element,
+       :attrs nil,
+       :tag :title,
+       :content
+       ["2006 Audi A6 3.2 Quattro - cars & trucks - by owner - vehicle automotive sale"]}
+      "\n    \t"
+      {:type :element,
+       :attrs
+       {:rel "canonical",
+        :href
+        "https://boise.craigslist.org/cto/d/2006-audi-a6-32-quattro/6359027948.html"},
+       :tag :link,
+       :content nil}
+      "\n\t"
+      {:type :element,
+       :attrs
+       {:name "description",
+        :content
+        "Selling because family is growing and need a larger vehicle. "},
+       :tag :meta,
+       :content nil}
+      "\n\t"
+      {:type :element,
+       :attrs
+       {:name "robots",
+        :content
+        "noarchive,nofollow,unavailable_after: 23-Nov-17 09:16:56 MST"},
+       :tag :meta,
+       :content nil}
+      "\n\t"
+      {:type :element,
+       :attrs {:name "twitter:card", :content "preview"},
+       :tag :meta,
+       :content nil}
+      "\n\t"
+      {:type :element,
+       :attrs
+       {:property "og:description",
+        :content
+        "Selling because family is growing and need a larger vehicle. "},
+       :tag :meta,
+       :content nil}
+      "\n\t"
+      {:type :element,
+       :attrs
+       {:property "og:image",
+        :content
+        "https://images.craigslist.org/00404_kVnMJFQrUh2_600x450.jpg"},
+       :tag :meta,
+       :content nil}
+      "\n\t"
+      {:type :element,
+       :attrs {:property "og:site_name", :content "craigslist"},
+       :tag :meta,
+       :content nil}
+      "\n\t"
+      {:type :element,
+       :attrs
+       {:property "og:title", :content "2006 Audi A6 3.2 Quattro"},
+       :tag :meta,
+       :content nil}
+      "\n\t"
+      {:type :element,
+       :attrs {:property "og:type", :content "article"},
+       :tag :meta,
+       :content nil}
+      "\n\t"
+      {:type :element,
+       :attrs
+       {:property "og:url",
+        :content
+        "https://boise.craigslist.org/cto/d/2006-audi-a6-32-quattro/6359027948.html"},
+       :tag :meta,
+       :content nil}
+      "\n"
+      {:type :element,
+       :attrs
+       {:name "viewport",
+        :content "width=device-width,initial-scale=1"},
+       :tag :meta,
+       :content nil}
+      {:type :element,
+       :attrs
+       {:type "text/css",
+        :rel "stylesheet",
+        :media "all",
+        :href
+        "//www.craigslist.org/styles/cl.css?v=4a33eaa2c5e2f9087278bddd0bcfce91"},
+       :tag :link,
+       :content nil}
+      {:type :element,
+       :attrs
+       {:type "text/css",
+        :rel "stylesheet",
+        :media "all",
+        :href
+        "//www.craigslist.org/styles/postings.css?v=13419cb8e3476ed687fdb617452e4a38"},
+       :tag :link,
+       :content nil}
+      "    \n"
+      {:type :comment,
+       :content
+       ["[if lt IE 9]>\n<script src=\"//www.craigslist.org/js/html5shiv.min.js?v=c0739b14a84b052680cdee44fea07435\" type=\"text/javascript\" ></script>\n\n<script src=\"//www.craigslist.org/js/respond-fork.min.js?v=247e877d69233f6f77bff30aca7b5473\" type=\"text/javascript\" ></script>\n\n<![endif]"]}
+      "\n"
+      {:type :comment,
+       :content
+       ["[if lte IE 7]>\n<script src=\"//www.craigslist.org/js/json2.min.js?v=6e47a4bb061d538548771024390aa00b\" type=\"text/javascript\" ></script>\n\n<![endif]"]}]}
+    "\n\n"
+    {:type :element,
+     :attrs {:class "posting en"},
+     :tag :body,
+     :content
+     ["\n"
+      {:type :element,
+       :attrs {:type "text/javascript"},
+       :tag :script,
+       :content
+       ["<!--\n    function C(k){return(document.cookie.match('(^|; )'+k+'=([^;]*)')||0)[2]}\n    var pagetype, pagemode;\n    (function(){\n        var h = document.documentElement;\n        h.className = h.className.replace('no-js', 'js');\n        var b = document.body;\n        var bodyClassList = b.className.split(/\\s+/);;\n        pagetype = bodyClassList[0]; // dangerous assumption\n        var fmt = C('cl_fmt');\n        if ( fmt === 'regular' || fmt === 'mobile' ) {\n            pagemode = fmt;\n        } else if (screen.width <= 480) {\n            pagemode = 'mobile';\n        } else {\n            pagemode = 'regular';\n        }\n        pagemode = pagemode === 'mobile' ? 'mobile' : 'desktop';\n        bodyClassList.push(pagemode);\n        if (C('hidesearch') === '1' && pagemode !== 'mobile') {\n            bodyClassList.push('hide-search');\n        }\n        var width = window.innerWidth || document.documentElement.clientWidth;\n        if (width > 1000) { bodyClassList.push('w1024'); }\n        if (typeof window.sectionBase !== 'undefined') {\n            var mode = (decodeURIComponent(C('cl_tocmode') || '').match(new RegExp(window.sectionBase + ':([^,]+)', 'i')) || {})[1] || window.defaultView;\n            if (mode) {\n                bodyClassList.push(mode);\n            }\n        }\n        b.className = bodyClassList.join(' ');\n    }());\n-->"]}
+      "\n\n    "
+      {:type :element,
+       :attrs {:class "page-container"},
+       :tag :section,
+       :content
+       ["\n        "
+        {:type :element,
+         :attrs {:class "bglogo"},
+         :tag :div,
+         :content nil}
+        "\n"
+        {:type :element,
+         :attrs {:class "global-header wide"},
+         :tag :header,
+         :content
+         ["\n   "
+          {:type :element,
+           :attrs {:class "header-logo", :name "logoLink", :href "/"},
+           :tag :a,
+           :content ["CL"]}
+          "\n\n    "
+          {:type :element,
+           :attrs {:class "breadcrumbs-container"},
+           :tag :nav,
+           :content
+           ["\n\n"
+            {:type :element,
+             :attrs {:class "breadcrumbs"},
+             :tag :ul,
+             :content
+             ["\n        "
+              {:type :element,
+               :attrs {:class "crumb area"},
+               :tag :li,
+               :content
+               ["\n            "
+                {:type :element,
+                 :attrs nil,
+                 :tag :p,
+                 :content
+                 ["\n                    "
+                  {:type :element,
+                   :attrs {:href "/"},
+                   :tag :a,
+                   :content ["boise"]}
+                  "\n\n                    "
+                  {:type :element,
+                   :attrs {:class "breadcrumb-arrow"},
+                   :tag :span,
+                   :content [">"]}
+                  "\n            "]}
+                "\n        "]}
+              "\n\n\n        "
+              {:type :element,
+               :attrs {:class "crumb section"},
+               :tag :li,
+               :content
+               ["\n            "
+                {:type :element,
+                 :attrs nil,
+                 :tag :p,
+                 :content
+                 ["\n                    "
+                  {:type :element,
+                   :attrs {:href "/search/sss"},
+                   :tag :a,
+                   :content ["for sale"]}
+                  "\n\n                    "
+                  {:type :element,
+                   :attrs {:class "breadcrumb-arrow"},
+                   :tag :span,
+                   :content [">"]}
+                  "\n            "]}
+                "\n        "]}
+              "\n\n        "
+              {:type :element,
+               :attrs {:class "crumb category"},
+               :tag :li,
+               :content
+               ["\n            "
+                {:type :element,
+                 :attrs nil,
+                 :tag :p,
+                 :content
+                 ["\n                "
+                  {:type :element,
+                   :attrs {:href "/search/cto"},
+                   :tag :a,
+                   :content ["cars & trucks - by owner"]}
+                  "\n\n            "]}
+                "\n        "]}
+              "\n\n"]}
+            "\n    "]}
+          "\n\n"
+          {:type :element,
+           :attrs {:class "userlinks"},
+           :tag :div,
+           :content
+           ["\n    "
+            {:type :element,
+             :attrs {:class "user-actions"},
+             :tag :ul,
+             :content
+             ["\n        "
+              {:type :element,
+               :attrs {:class "user post"},
+               :tag :li,
+               :content
+               ["\n            "
+                {:type :element,
+                 :attrs {:href "https://post.craigslist.org/c/boi"},
+                 :tag :a,
+                 :content ["post"]}
+                "\n        "]}
+              "\n        "
+              {:type :element,
+               :attrs {:class "user account"},
+               :tag :li,
+               :content
+               ["\n            "
+                {:type :element,
+                 :attrs
+                 {:href "https://accounts.craigslist.org/login/home"},
+                 :tag :a,
+                 :content ["account"]}
+                "\n        "]}
+              "\n    "]}
+            "\n    "
+            {:type :element,
+             :attrs {:class "user-favs-discards"},
+             :tag :ul,
+             :content
+             ["\n        "
+              {:type :element,
+               :attrs {:class "user"},
+               :tag :li,
+               :content
+               ["\n            "
+                {:type :element,
+                 :attrs {:class "favorites"},
+                 :tag :div,
+                 :content
+                 ["\n                "
+                  {:type :element,
+                   :attrs {:href "#", :class "favlink"},
+                   :tag :a,
+                   :content
+                   [{:type :element,
+                     :attrs
+                     {:class "icon icon-star fav",
+                      :aria-hidden "true"},
+                     :tag :span,
+                     :content nil}
+                    {:type :element,
+                     :attrs {:class "fav-number"},
+                     :tag :span,
+                     :content nil}
+                    {:type :element,
+                     :attrs {:class "fav-label"},
+                     :tag :span,
+                     :content [" favorites"]}]}
+                  "\n            "]}
+                "\n        "]}
+              "\n        "
+              {:type :element,
+               :attrs {:class "user discards"},
+               :tag :li,
+               :content
+               ["\n          "
+                {:type :element,
+                 :attrs
+                 {:class "unfavform js-only",
+                  :method "POST",
+                  :action "/favorites"},
+                 :tag :form,
+                 :content
+                 ["\n            "
+                  {:type :element,
+                   :attrs {:class "to-banish-page"},
+                   :tag :div,
+                   :content
+                   ["\n              "
+                    {:type :element,
+                     :attrs
+                     {:type "hidden",
+                      :class "lastLink",
+                      :name "lastLink",
+                      :value "/cto/6359027948.html"},
+                     :tag :input,
+                     :content nil}
+                    "\n              "
+                    {:type :element,
+                     :attrs
+                     {:type "hidden",
+                      :class "lastTitle",
+                      :name "lastTitle",
+                      :value "2006 Audi A6 3.2 Quattro"},
+                     :tag :input,
+                     :content nil}
+                    "\n              "
+                    {:type :element,
+                     :attrs
+                     {:type "hidden", :class "unfaves", :name "fl"},
+                     :tag :input,
+                     :content nil}
+                    "\n              "
+                    {:type :element,
+                     :attrs {:type "hidden", :name "uf", :value "1"},
+                     :tag :input,
+                     :content nil}
+                    "\n              "
+                    {:type :element,
+                     :attrs {:href "#", :class "to-banish-page-link"},
+                     :tag :a,
+                     :content
+                     ["\n                "
+                      {:type :element,
+                       :attrs
+                       {:class "icon icon-trash red",
+                        :aria-hidden "true"},
+                       :tag :span,
+                       :content nil}
+                      "\n                "
+                      {:type :element,
+                       :attrs {:class "banished_count"},
+                       :tag :span,
+                       :content nil}
+                      "\n                "
+                      {:type :element,
+                       :attrs {:class "discards-label"},
+                       :tag :span,
+                       :content [" hidden"]}
+                      "\n              "]}
+                    "\n            "]}
+                  "\n          "]}
+                "\n        "]}
+              "\n    "]}
+            "\n"]}
+          "\n\n"]}
+        "\n"
+        {:type :element,
+         :attrs {:class "global-header narrow"},
+         :tag :header,
+         :content
+         ["\n   "
+          {:type :element,
+           :attrs {:class "header-logo", :href "/"},
+           :tag :a,
+           :content ["CL"]}
+          "\n    "
+          {:type :element,
+           :attrs {:class "breadcrumbs-container"},
+           :tag :nav,
+           :content
+           ["\n\n"
+            {:type :element,
+             :attrs {:class "breadcrumbs"},
+             :tag :ul,
+             :content
+             ["\n\n\nboise            >\n\ncars & trucks - by owner\n\n"]}
+            "\n\n\n    "]}
+          "\n    "
+          {:type :element,
+           :attrs {:class "linklike show-wide-header"},
+           :tag :span,
+           :content ["..."]}
+          "\n"]}
+        "\n        "
+        {:type :element,
+         :attrs {:class "body"},
+         :tag :section,
+         :content
+         ["\n"
+          {:type :element,
+           :attrs {:class "dateReplyBar"},
+           :tag :header,
+           :content
+           ["\n    \n        "
+            {:type :element,
+             :attrs {:type "text/javascript"},
+             :tag :script,
+             :content
+             ["<!--\nvar bestOf = \"\";\nvar buttonPostingID = \"6359027948\";\nvar isPreview = \"\";\n-->"]}
+            "\n    \n\n"
+            {:type :element,
+             :attrs {:class "reply_button js-only"},
+             :tag :button,
+             :content
+             ["reply "
+              {:type :element,
+               :attrs {:class "envelope"},
+               :tag :span,
+               :content ["✉"]}
+              " "
+              {:type :element,
+               :attrs {:class "phone"},
+               :tag :span,
+               :content ["☎"]}]}
+            "\n    "
+            {:type :element,
+             :attrs {:class "replylink"},
+             :tag :span,
+             :content
+             [{:type :element,
+               :attrs
+               {:id "replylink", :href "/reply/boi/cto/6359027948"},
+               :tag :a,
+               :content ["reply"]}]}
+            "\n\n"
+            {:type :element,
+             :attrs {:class "returnemail js-only"},
+             :tag :div,
+             :content nil}
+            "\n\n    "
+            {:type :element,
+             :attrs {:class "flags"},
+             :tag :aside,
+             :content
+             ["\n    "
+              {:type :element,
+               :attrs
+               {:class "flaglink",
+                :data-flag "28",
+                :href
+                "https://post.craigslist.org/flag?flagCode=28&postingID=6359027948&cat=cto&area=boi",
+                :title "flag as prohibited / spam / miscategorized"},
+               :tag :a,
+               :content
+               [{:type :element,
+                 :attrs {:class "flag"},
+                 :tag :span,
+                 :content ["x"]}
+                " "
+                {:type :element,
+                 :attrs {:class "flagtext"},
+                 :tag :span,
+                 :content ["prohibited"]}]}
+              {:type :element,
+               :attrs nil,
+               :tag :sup,
+               :content
+               ["["
+                {:type :element,
+                 :attrs
+                 {:href "http://www.craigslist.org/about/prohibited"},
+                 :tag :a,
+                 :content ["?"]}
+                "]"]}
+              "\n"]}
+            "\n        "
+            {:type :element,
+             :attrs {:id "display-date", :class "postinginfo reveal"},
+             :tag :p,
+             :content
+             ["Posted "
+              {:type :element,
+               :attrs
+               {:class "date timeago",
+                :datetime "2017-10-24T10:16:52-0600"},
+               :tag :time,
+               :content ["2017-10-24 10:16am"]}]}
+            "\n\n    "
+            {:type :element,
+             :attrs {:class "print-information print-contact"},
+             :tag :p,
+             :content
+             ["\n        Contact Information: "
+              {:type :element,
+               :attrs {:class "print-email"},
+               :tag :span,
+               :content nil}
+              " "
+              {:type :element,
+               :attrs {:class "print-phone"},
+               :tag :span,
+               :content nil}
+              "\n    "]}
+            "\n\n        "
+            {:type :element,
+             :attrs {:href "#", :id "printme"},
+             :tag :a,
+             :content ["print"]}
+            "\n    "
+            {:type :element,
+             :attrs {:class "prevnext js-only"},
+             :tag :div,
+             :content
+             ["\n    "
+              {:type :element,
+               :attrs {:class "prev"},
+               :tag :a,
+               :content ["◀  prev "]}
+              "\n    "
+              {:type :element,
+               :attrs {:class "backup", :title "back to search"},
+               :tag :a,
+               :content ["▲"]}
+              "\n    "
+              {:type :element,
+               :attrs {:class "next"},
+               :tag :a,
+               :content [" next ▶ "]}
+              "\n"]}
+            "\n\n"]}
+          "\n\n"
+          {:type :element,
+           :attrs {:class "postingtitle"},
+           :tag :h2,
+           :content
+           ["\n    "
+            {:type :element,
+             :attrs {:class "icon icon-star", :role "button"},
+             :tag :span,
+             :content
+             ["\n        "
+              {:type :element,
+               :attrs {:class "screen-reader-text"},
+               :tag :span,
+               :content ["favorite this post"]}
+              "\n    "]}
+            "\n    "
+            {:type :element,
+             :attrs {:class "postingtitletext"},
+             :tag :span,
+             :content
+             ["\n"
+              {:type :element,
+               :attrs {:id "titletextonly"},
+               :tag :span,
+               :content ["2006 Audi A6 3.2 Quattro"]}
+              " - "
+              {:type :element,
+               :attrs {:class "price"},
+               :tag :span,
+               :content ["$7500"]}
+              {:type :element,
+               :attrs nil,
+               :tag :small,
+               :content [" (Boise)"]}
+              "        "
+              {:type :element,
+               :attrs {:class "js-only banish-unbanish"},
+               :tag :span,
+               :content
+               ["\n  "
+                {:type :element,
+                 :attrs {:class "banish", :role "button"},
+                 :tag :span,
+                 :content
+                 ["\n    "
+                  {:type :element,
+                   :attrs
+                   {:class "icon icon-trash", :aria-hidden "true"},
+                   :tag :span,
+                   :content nil}
+                  "\n    "
+                  {:type :element,
+                   :attrs {:class "screen-reader-text"},
+                   :tag :span,
+                   :content ["hide this posting"]}
+                  "\n  "]}
+                "\n  "
+                {:type :element,
+                 :attrs {:class "unbanish", :role "button"},
+                 :tag :span,
+                 :content
+                 ["\n    "
+                  {:type :element,
+                   :attrs
+                   {:class "icon icon-trash red", :aria-hidden "true"},
+                   :tag :span,
+                   :content nil}
+                  "\n    unhide\n  "]}
+                "\n"]}
+              "\n    "]}
+            "\n"]}
+          "\n"
+          {:type :element,
+           :attrs {:class "userbody"},
+           :tag :section,
+           :content
+           ["\n    \n\n"
+            {:type :element,
+             :attrs {:class "iw multiimage"},
+             :tag :figure,
+             :content
+             ["\n    "
+              {:type :element,
+               :attrs {:class "gallery"},
+               :tag :div,
+               :content
+               ["\n        "
+                {:type :element,
+                 :attrs {:class "slider-back arrow"},
+                 :tag :span,
+                 :content ["<"]}
+                "\n        "
+                {:type :element,
+                 :attrs {:class "slider-info"},
+                 :tag :span,
+                 :content ["image 1 of 19"]}
+                "\n        "
+                {:type :element,
+                 :attrs {:class "slider-forward arrow"},
+                 :tag :span,
+                 :content [">"]}
+                "\n\n        "
+                {:type :element,
+                 :attrs {:class "swipe"},
+                 :tag :div,
+                 :content
+                 ["\n            "
+                  {:type :element,
+                   :attrs {:class "swipe-wrap"},
+                   :tag :div,
+                   :content
+                   [{:type :element,
+                     :attrs
+                     {:id "1_image_kVnMJFQrUh2",
+                      :data-imgid "kVnMJFQrUh2",
+                      :class "slide first visible"},
+                     :tag :div,
+                     :content
+                     [{:type :element,
+                       :attrs
+                       {:src
+                        "https://images.craigslist.org/00404_kVnMJFQrUh2_600x450.jpg",
+                        :title " 1",
+                        :alt " 1"},
+                       :tag :img,
+                       :content nil}]}
+                    {:type :element,
+                     :attrs
+                     {:id "2_image_2pFWw2Wi0u2",
+                      :data-imgid "2pFWw2Wi0u2",
+                      :class "slide "},
+                     :tag :div,
+                     :content nil}
+                    {:type :element,
+                     :attrs
+                     {:id "3_image_2pIQM2D60dV",
+                      :data-imgid "2pIQM2D60dV",
+                      :class "slide "},
+                     :tag :div,
+                     :content nil}
+                    {:type :element,
+                     :attrs
+                     {:id "4_image_iGkmLxX5hQY",
+                      :data-imgid "iGkmLxX5hQY",
+                      :class "slide "},
+                     :tag :div,
+                     :content nil}
+                    {:type :element,
+                     :attrs
+                     {:id "5_image_anaF2Prin41",
+                      :data-imgid "anaF2Prin41",
+                      :class "slide "},
+                     :tag :div,
+                     :content nil}
+                    {:type :element,
+                     :attrs
+                     {:id "6_image_4YDsKObf8wj",
+                      :data-imgid "4YDsKObf8wj",
+                      :class "slide "},
+                     :tag :div,
+                     :content nil}
+                    {:type :element,
+                     :attrs
+                     {:id "7_image_jm320Nyr9x1",
+                      :data-imgid "jm320Nyr9x1",
+                      :class "slide "},
+                     :tag :div,
+                     :content nil}
+                    {:type :element,
+                     :attrs
+                     {:id "8_image_lFwdN0hsFK0",
+                      :data-imgid "lFwdN0hsFK0",
+                      :class "slide "},
+                     :tag :div,
+                     :content nil}
+                    {:type :element,
+                     :attrs
+                     {:id "9_image_lDYpBqOAeYC",
+                      :data-imgid "lDYpBqOAeYC",
+                      :class "slide "},
+                     :tag :div,
+                     :content nil}
+                    {:type :element,
+                     :attrs
+                     {:id "10_image_hyrHqsDqS7u",
+                      :data-imgid "hyrHqsDqS7u",
+                      :class "slide "},
+                     :tag :div,
+                     :content nil}
+                    {:type :element,
+                     :attrs
+                     {:id "11_image_amcFDjyBhsv",
+                      :data-imgid "amcFDjyBhsv",
+                      :class "slide "},
+                     :tag :div,
+                     :content nil}
+                    {:type :element,
+                     :attrs
+                     {:id "12_image_fsYLrLq94z5",
+                      :data-imgid "fsYLrLq94z5",
+                      :class "slide "},
+                     :tag :div,
+                     :content nil}
+                    {:type :element,
+                     :attrs
+                     {:id "13_image_94B5pUUPYJO",
+                      :data-imgid "94B5pUUPYJO",
+                      :class "slide "},
+                     :tag :div,
+                     :content nil}
+                    {:type :element,
+                     :attrs
+                     {:id "14_image_afwfqu4P61l",
+                      :data-imgid "afwfqu4P61l",
+                      :class "slide "},
+                     :tag :div,
+                     :content nil}
+                    {:type :element,
+                     :attrs
+                     {:id "15_image_lxvTwwc0zda",
+                      :data-imgid "lxvTwwc0zda",
+                      :class "slide "},
+                     :tag :div,
+                     :content nil}
+                    {:type :element,
+                     :attrs
+                     {:id "16_image_aHegSiSN6W",
+                      :data-imgid "aHegSiSN6W",
+                      :class "slide "},
+                     :tag :div,
+                     :content nil}
+                    {:type :element,
+                     :attrs
+                     {:id "17_image_4grnxTDnLLh",
+                      :data-imgid "4grnxTDnLLh",
+                      :class "slide "},
+                     :tag :div,
+                     :content nil}
+                    {:type :element,
+                     :attrs
+                     {:id "18_image_5TXJ495SDsb",
+                      :data-imgid "5TXJ495SDsb",
+                      :class "slide "},
+                     :tag :div,
+                     :content nil}
+                    {:type :element,
+                     :attrs
+                     {:id "19_image_khZYNpB206g",
+                      :data-imgid "khZYNpB206g",
+                      :class "slide "},
+                     :tag :div,
+                     :content nil}]}
+                  "\n        "]}
+                "\n    "]}
+              "\n\n    "
+              {:type :element,
+               :attrs {:id "thumbs"},
+               :tag :div,
+               :content
+               [{:type :element,
+                 :attrs
+                 {:id "1_thumb_kVnMJFQrUh2",
+                  :class "thumb",
+                  :data-imgid "kVnMJFQrUh2",
+                  :href
+                  "https://images.craigslist.org/00404_kVnMJFQrUh2_600x450.jpg",
+                  :title "1"},
+                 :tag :a,
+                 :content
+                 [{:type :element,
+                   :attrs
+                   {:src
+                    "https://images.craigslist.org/00404_kVnMJFQrUh2_50x50c.jpg",
+                    :class "selected",
+                    :alt " 1"},
+                   :tag :img,
+                   :content nil}]}
+                {:type :element,
+                 :attrs
+                 {:id "2_thumb_2pFWw2Wi0u2",
+                  :class "thumb",
+                  :data-imgid "2pFWw2Wi0u2",
+                  :href
+                  "https://images.craigslist.org/00l0l_2pFWw2Wi0u2_600x450.jpg",
+                  :title "2"},
+                 :tag :a,
+                 :content
+                 [{:type :element,
+                   :attrs
+                   {:src
+                    "https://images.craigslist.org/00l0l_2pFWw2Wi0u2_50x50c.jpg",
+                    :alt " 2"},
+                   :tag :img,
+                   :content nil}]}
+                {:type :element,
+                 :attrs
+                 {:id "3_thumb_2pIQM2D60dV",
+                  :class "thumb",
+                  :data-imgid "2pIQM2D60dV",
+                  :href
+                  "https://images.craigslist.org/01616_2pIQM2D60dV_600x450.jpg",
+                  :title "3"},
+                 :tag :a,
+                 :content
+                 [{:type :element,
+                   :attrs
+                   {:src
+                    "https://images.craigslist.org/01616_2pIQM2D60dV_50x50c.jpg",
+                    :alt " 3"},
+                   :tag :img,
+                   :content nil}]}
+                {:type :element,
+                 :attrs
+                 {:id "4_thumb_iGkmLxX5hQY",
+                  :class "thumb",
+                  :data-imgid "iGkmLxX5hQY",
+                  :href
+                  "https://images.craigslist.org/00909_iGkmLxX5hQY_600x450.jpg",
+                  :title "4"},
+                 :tag :a,
+                 :content
+                 [{:type :element,
+                   :attrs
+                   {:src
+                    "https://images.craigslist.org/00909_iGkmLxX5hQY_50x50c.jpg",
+                    :alt " 4"},
+                   :tag :img,
+                   :content nil}]}
+                {:type :element,
+                 :attrs
+                 {:id "5_thumb_anaF2Prin41",
+                  :class "thumb",
+                  :data-imgid "anaF2Prin41",
+                  :href
+                  "https://images.craigslist.org/00m0m_anaF2Prin41_600x450.jpg",
+                  :title "5"},
+                 :tag :a,
+                 :content
+                 [{:type :element,
+                   :attrs
+                   {:src
+                    "https://images.craigslist.org/00m0m_anaF2Prin41_50x50c.jpg",
+                    :alt " 5"},
+                   :tag :img,
+                   :content nil}]}
+                {:type :element,
+                 :attrs
+                 {:id "6_thumb_4YDsKObf8wj",
+                  :class "thumb",
+                  :data-imgid "4YDsKObf8wj",
+                  :href
+                  "https://images.craigslist.org/00T0T_4YDsKObf8wj_600x450.jpg",
+                  :title "6"},
+                 :tag :a,
+                 :content
+                 [{:type :element,
+                   :attrs
+                   {:src
+                    "https://images.craigslist.org/00T0T_4YDsKObf8wj_50x50c.jpg",
+                    :alt " 6"},
+                   :tag :img,
+                   :content nil}]}
+                {:type :element,
+                 :attrs
+                 {:id "7_thumb_jm320Nyr9x1",
+                  :class "thumb",
+                  :data-imgid "jm320Nyr9x1",
+                  :href
+                  "https://images.craigslist.org/00U0U_jm320Nyr9x1_600x450.jpg",
+                  :title "7"},
+                 :tag :a,
+                 :content
+                 [{:type :element,
+                   :attrs
+                   {:src
+                    "https://images.craigslist.org/00U0U_jm320Nyr9x1_50x50c.jpg",
+                    :alt " 7"},
+                   :tag :img,
+                   :content nil}]}
+                {:type :element,
+                 :attrs
+                 {:id "8_thumb_lFwdN0hsFK0",
+                  :class "thumb",
+                  :data-imgid "lFwdN0hsFK0",
+                  :href
+                  "https://images.craigslist.org/00H0H_lFwdN0hsFK0_600x450.jpg",
+                  :title "8"},
+                 :tag :a,
+                 :content
+                 [{:type :element,
+                   :attrs
+                   {:src
+                    "https://images.craigslist.org/00H0H_lFwdN0hsFK0_50x50c.jpg",
+                    :alt " 8"},
+                   :tag :img,
+                   :content nil}]}
+                {:type :element,
+                 :attrs
+                 {:id "9_thumb_lDYpBqOAeYC",
+                  :class "thumb",
+                  :data-imgid "lDYpBqOAeYC",
+                  :href
+                  "https://images.craigslist.org/00S0S_lDYpBqOAeYC_600x450.jpg",
+                  :title "9"},
+                 :tag :a,
+                 :content
+                 [{:type :element,
+                   :attrs
+                   {:src
+                    "https://images.craigslist.org/00S0S_lDYpBqOAeYC_50x50c.jpg",
+                    :alt " 9"},
+                   :tag :img,
+                   :content nil}]}
+                {:type :element,
+                 :attrs
+                 {:id "10_thumb_hyrHqsDqS7u",
+                  :class "thumb",
+                  :data-imgid "hyrHqsDqS7u",
+                  :href
+                  "https://images.craigslist.org/00m0m_hyrHqsDqS7u_600x450.jpg",
+                  :title "10"},
+                 :tag :a,
+                 :content
+                 [{:type :element,
+                   :attrs
+                   {:src
+                    "https://images.craigslist.org/00m0m_hyrHqsDqS7u_50x50c.jpg",
+                    :alt " 10"},
+                   :tag :img,
+                   :content nil}]}
+                {:type :element,
+                 :attrs
+                 {:id "11_thumb_amcFDjyBhsv",
+                  :class "thumb",
+                  :data-imgid "amcFDjyBhsv",
+                  :href
+                  "https://images.craigslist.org/00Z0Z_amcFDjyBhsv_600x450.jpg",
+                  :title "11"},
+                 :tag :a,
+                 :content
+                 [{:type :element,
+                   :attrs
+                   {:src
+                    "https://images.craigslist.org/00Z0Z_amcFDjyBhsv_50x50c.jpg",
+                    :alt " 11"},
+                   :tag :img,
+                   :content nil}]}
+                {:type :element,
+                 :attrs
+                 {:id "12_thumb_fsYLrLq94z5",
+                  :class "thumb",
+                  :data-imgid "fsYLrLq94z5",
+                  :href
+                  "https://images.craigslist.org/01717_fsYLrLq94z5_600x450.jpg",
+                  :title "12"},
+                 :tag :a,
+                 :content
+                 [{:type :element,
+                   :attrs
+                   {:src
+                    "https://images.craigslist.org/01717_fsYLrLq94z5_50x50c.jpg",
+                    :alt " 12"},
+                   :tag :img,
+                   :content nil}]}
+                {:type :element,
+                 :attrs
+                 {:id "13_thumb_94B5pUUPYJO",
+                  :class "thumb",
+                  :data-imgid "94B5pUUPYJO",
+                  :href
+                  "https://images.craigslist.org/00i0i_94B5pUUPYJO_600x450.jpg",
+                  :title "13"},
+                 :tag :a,
+                 :content
+                 [{:type :element,
+                   :attrs
+                   {:src
+                    "https://images.craigslist.org/00i0i_94B5pUUPYJO_50x50c.jpg",
+                    :alt " 13"},
+                   :tag :img,
+                   :content nil}]}
+                {:type :element,
+                 :attrs
+                 {:id "14_thumb_afwfqu4P61l",
+                  :class "thumb",
+                  :data-imgid "afwfqu4P61l",
+                  :href
+                  "https://images.craigslist.org/00b0b_afwfqu4P61l_600x450.jpg",
+                  :title "14"},
+                 :tag :a,
+                 :content
+                 [{:type :element,
+                   :attrs
+                   {:src
+                    "https://images.craigslist.org/00b0b_afwfqu4P61l_50x50c.jpg",
+                    :alt " 14"},
+                   :tag :img,
+                   :content nil}]}
+                {:type :element,
+                 :attrs
+                 {:id "15_thumb_lxvTwwc0zda",
+                  :class "thumb",
+                  :data-imgid "lxvTwwc0zda",
+                  :href
+                  "https://images.craigslist.org/00u0u_lxvTwwc0zda_600x450.jpg",
+                  :title "15"},
+                 :tag :a,
+                 :content
+                 [{:type :element,
+                   :attrs
+                   {:src
+                    "https://images.craigslist.org/00u0u_lxvTwwc0zda_50x50c.jpg",
+                    :alt " 15"},
+                   :tag :img,
+                   :content nil}]}
+                {:type :element,
+                 :attrs
+                 {:id "16_thumb_aHegSiSN6W",
+                  :class "thumb",
+                  :data-imgid "aHegSiSN6W",
+                  :href
+                  "https://images.craigslist.org/00Y0Y_aHegSiSN6W_600x450.jpg",
+                  :title "16"},
+                 :tag :a,
+                 :content
+                 [{:type :element,
+                   :attrs
+                   {:src
+                    "https://images.craigslist.org/00Y0Y_aHegSiSN6W_50x50c.jpg",
+                    :alt " 16"},
+                   :tag :img,
+                   :content nil}]}
+                {:type :element,
+                 :attrs
+                 {:id "17_thumb_4grnxTDnLLh",
+                  :class "thumb",
+                  :data-imgid "4grnxTDnLLh",
+                  :href
+                  "https://images.craigslist.org/00Q0Q_4grnxTDnLLh_600x450.jpg",
+                  :title "17"},
+                 :tag :a,
+                 :content
+                 [{:type :element,
+                   :attrs
+                   {:src
+                    "https://images.craigslist.org/00Q0Q_4grnxTDnLLh_50x50c.jpg",
+                    :alt " 17"},
+                   :tag :img,
+                   :content nil}]}
+                {:type :element,
+                 :attrs
+                 {:id "18_thumb_5TXJ495SDsb",
+                  :class "thumb",
+                  :data-imgid "5TXJ495SDsb",
+                  :href
+                  "https://images.craigslist.org/00y0y_5TXJ495SDsb_600x450.jpg",
+                  :title "18"},
+                 :tag :a,
+                 :content
+                 [{:type :element,
+                   :attrs
+                   {:src
+                    "https://images.craigslist.org/00y0y_5TXJ495SDsb_50x50c.jpg",
+                    :alt " 18"},
+                   :tag :img,
+                   :content nil}]}
+                {:type :element,
+                 :attrs
+                 {:id "19_thumb_khZYNpB206g",
+                  :class "thumb",
+                  :data-imgid "khZYNpB206g",
+                  :href
+                  "https://images.craigslist.org/01515_khZYNpB206g_600x450.jpg",
+                  :title "19"},
+                 :tag :a,
+                 :content
+                 [{:type :element,
+                   :attrs
+                   {:src
+                    "https://images.craigslist.org/01515_khZYNpB206g_50x50c.jpg",
+                    :alt " 19"},
+                   :tag :img,
+                   :content nil}]}]}
+              "\n    \n        "
+              {:type :element,
+               :attrs {:type "text/javascript"},
+               :tag :script,
+               :content
+               ["<!--\nvar imgList = [{\"shortid\":\"kVnMJFQrUh2\",\"url\":\"https://images.craigslist.org/00404_kVnMJFQrUh2_600x450.jpg\",\"thumb\":\"https://images.craigslist.org/00404_kVnMJFQrUh2_50x50c.jpg\",\"imgid\":\"1:00404_kVnMJFQrUh2\"},{\"shortid\":\"2pFWw2Wi0u2\",\"url\":\"https://images.craigslist.org/00l0l_2pFWw2Wi0u2_600x450.jpg\",\"thumb\":\"https://images.craigslist.org/00l0l_2pFWw2Wi0u2_50x50c.jpg\",\"imgid\":\"1:00l0l_2pFWw2Wi0u2\"},{\"shortid\":\"2pIQM2D60dV\",\"url\":\"https://images.craigslist.org/01616_2pIQM2D60dV_600x450.jpg\",\"thumb\":\"https://images.craigslist.org/01616_2pIQM2D60dV_50x50c.jpg\",\"imgid\":\"1:01616_2pIQM2D60dV\"},{\"shortid\":\"iGkmLxX5hQY\",\"url\":\"https://images.craigslist.org/00909_iGkmLxX5hQY_600x450.jpg\",\"thumb\":\"https://images.craigslist.org/00909_iGkmLxX5hQY_50x50c.jpg\",\"imgid\":\"1:00909_iGkmLxX5hQY\"},{\"shortid\":\"anaF2Prin41\",\"url\":\"https://images.craigslist.org/00m0m_anaF2Prin41_600x450.jpg\",\"thumb\":\"https://images.craigslist.org/00m0m_anaF2Prin41_50x50c.jpg\",\"imgid\":\"1:00m0m_anaF2Prin41\"},{\"shortid\":\"4YDsKObf8wj\",\"url\":\"https://images.craigslist.org/00T0T_4YDsKObf8wj_600x450.jpg\",\"thumb\":\"https://images.craigslist.org/00T0T_4YDsKObf8wj_50x50c.jpg\",\"imgid\":\"1:00T0T_4YDsKObf8wj\"},{\"shortid\":\"jm320Nyr9x1\",\"url\":\"https://images.craigslist.org/00U0U_jm320Nyr9x1_600x450.jpg\",\"thumb\":\"https://images.craigslist.org/00U0U_jm320Nyr9x1_50x50c.jpg\",\"imgid\":\"1:00U0U_jm320Nyr9x1\"},{\"shortid\":\"lFwdN0hsFK0\",\"url\":\"https://images.craigslist.org/00H0H_lFwdN0hsFK0_600x450.jpg\",\"thumb\":\"https://images.craigslist.org/00H0H_lFwdN0hsFK0_50x50c.jpg\",\"imgid\":\"1:00H0H_lFwdN0hsFK0\"},{\"shortid\":\"lDYpBqOAeYC\",\"url\":\"https://images.craigslist.org/00S0S_lDYpBqOAeYC_600x450.jpg\",\"thumb\":\"https://images.craigslist.org/00S0S_lDYpBqOAeYC_50x50c.jpg\",\"imgid\":\"1:00S0S_lDYpBqOAeYC\"},{\"shortid\":\"hyrHqsDqS7u\",\"url\":\"https://images.craigslist.org/00m0m_hyrHqsDqS7u_600x450.jpg\",\"thumb\":\"https://images.craigslist.org/00m0m_hyrHqsDqS7u_50x50c.jpg\",\"imgid\":\"1:00m0m_hyrHqsDqS7u\"},{\"shortid\":\"amcFDjyBhsv\",\"url\":\"https://images.craigslist.org/00Z0Z_amcFDjyBhsv_600x450.jpg\",\"thumb\":\"https://images.craigslist.org/00Z0Z_amcFDjyBhsv_50x50c.jpg\",\"imgid\":\"1:00Z0Z_amcFDjyBhsv\"},{\"shortid\":\"fsYLrLq94z5\",\"url\":\"https://images.craigslist.org/01717_fsYLrLq94z5_600x450.jpg\",\"thumb\":\"https://images.craigslist.org/01717_fsYLrLq94z5_50x50c.jpg\",\"imgid\":\"1:01717_fsYLrLq94z5\"},{\"shortid\":\"94B5pUUPYJO\",\"url\":\"https://images.craigslist.org/00i0i_94B5pUUPYJO_600x450.jpg\",\"thumb\":\"https://images.craigslist.org/00i0i_94B5pUUPYJO_50x50c.jpg\",\"imgid\":\"1:00i0i_94B5pUUPYJO\"},{\"shortid\":\"afwfqu4P61l\",\"url\":\"https://images.craigslist.org/00b0b_afwfqu4P61l_600x450.jpg\",\"thumb\":\"https://images.craigslist.org/00b0b_afwfqu4P61l_50x50c.jpg\",\"imgid\":\"1:00b0b_afwfqu4P61l\"},{\"shortid\":\"lxvTwwc0zda\",\"url\":\"https://images.craigslist.org/00u0u_lxvTwwc0zda_600x450.jpg\",\"thumb\":\"https://images.craigslist.org/00u0u_lxvTwwc0zda_50x50c.jpg\",\"imgid\":\"1:00u0u_lxvTwwc0zda\"},{\"shortid\":\"aHegSiSN6W\",\"url\":\"https://images.craigslist.org/00Y0Y_aHegSiSN6W_600x450.jpg\",\"thumb\":\"https://images.craigslist.org/00Y0Y_aHegSiSN6W_50x50c.jpg\",\"imgid\":\"1:00Y0Y_aHegSiSN6W\"},{\"shortid\":\"4grnxTDnLLh\",\"url\":\"https://images.craigslist.org/00Q0Q_4grnxTDnLLh_600x450.jpg\",\"thumb\":\"https://images.craigslist.org/00Q0Q_4grnxTDnLLh_50x50c.jpg\",\"imgid\":\"1:00Q0Q_4grnxTDnLLh\"},{\"shortid\":\"5TXJ495SDsb\",\"url\":\"https://images.craigslist.org/00y0y_5TXJ495SDsb_600x450.jpg\",\"thumb\":\"https://images.craigslist.org/00y0y_5TXJ495SDsb_50x50c.jpg\",\"imgid\":\"1:00y0y_5TXJ495SDsb\"},{\"shortid\":\"khZYNpB206g\",\"url\":\"https://images.craigslist.org/01515_khZYNpB206g_600x450.jpg\",\"thumb\":\"https://images.craigslist.org/01515_khZYNpB206g_50x50c.jpg\",\"imgid\":\"1:01515_khZYNpB206g\"}];\n-->"]}
+              "\n    \n"]}
+            "\n\n    "
+            {:type :element,
+             :attrs {:class "mapAndAttrs"},
+             :tag :div,
+             :content
+             ["\n\n    "
+              {:type :element,
+               :attrs {:class "attrgroup"},
+               :tag :p,
+               :content
+               ["\n\n\n\n            "
+                {:type :element,
+                 :attrs nil,
+                 :tag :span,
+                 :content
+                 [{:type :element,
+                   :attrs nil,
+                   :tag :b,
+                   :content ["2006 Audi A6 3.2 Quattro"]}]}
+                "\n            "
+                {:type :element, :attrs nil, :tag :br, :content nil}
+                "\n\n    "]}
+              "\n    "
+              {:type :element,
+               :attrs {:class "attrgroup"},
+               :tag :p,
+               :content
+               ["\n\n\n\n            "
+                {:type :element,
+                 :attrs nil,
+                 :tag :span,
+                 :content
+                 ["VIN: "
+                  {:type :element,
+                   :attrs nil,
+                   :tag :b,
+                   :content ["WAUDG94F96N063476"]}]}
+                "\n            "
+                {:type :element, :attrs nil, :tag :br, :content nil}
+                "\n\n\n\n\n            "
+                {:type :element,
+                 :attrs nil,
+                 :tag :span,
+                 :content
+                 ["condition: "
+                  {:type :element,
+                   :attrs nil,
+                   :tag :b,
+                   :content ["good"]}]}
+                "\n            "
+                {:type :element, :attrs nil, :tag :br, :content nil}
+                "\n\n\n\n\n            "
+                {:type :element,
+                 :attrs nil,
+                 :tag :span,
+                 :content
+                 ["cylinders: "
+                  {:type :element,
+                   :attrs nil,
+                   :tag :b,
+                   :content ["6 cylinders"]}]}
+                "\n            "
+                {:type :element, :attrs nil, :tag :br, :content nil}
+                "\n\n\n\n\n            "
+                {:type :element,
+                 :attrs nil,
+                 :tag :span,
+                 :content
+                 ["drive: "
+                  {:type :element,
+                   :attrs nil,
+                   :tag :b,
+                   :content ["4wd"]}]}
+                "\n            "
+                {:type :element, :attrs nil, :tag :br, :content nil}
+                "\n\n\n\n\n            "
+                {:type :element,
+                 :attrs nil,
+                 :tag :span,
+                 :content
+                 ["fuel: "
+                  {:type :element,
+                   :attrs nil,
+                   :tag :b,
+                   :content ["gas"]}]}
+                "\n            "
+                {:type :element, :attrs nil, :tag :br, :content nil}
+                "\n\n\n\n\n            "
+                {:type :element,
+                 :attrs nil,
+                 :tag :span,
+                 :content
+                 ["odometer: "
+                  {:type :element,
+                   :attrs nil,
+                   :tag :b,
+                   :content ["110750"]}]}
+                "\n            "
+                {:type :element, :attrs nil, :tag :br, :content nil}
+                "\n\n\n\n\n            "
+                {:type :element,
+                 :attrs nil,
+                 :tag :span,
+                 :content
+                 ["paint color: "
+                  {:type :element,
+                   :attrs nil,
+                   :tag :b,
+                   :content ["black"]}]}
+                "\n            "
+                {:type :element, :attrs nil, :tag :br, :content nil}
+                "\n\n\n\n\n            "
+                {:type :element,
+                 :attrs nil,
+                 :tag :span,
+                 :content
+                 ["size: "
+                  {:type :element,
+                   :attrs nil,
+                   :tag :b,
+                   :content ["full-size"]}]}
+                "\n            "
+                {:type :element, :attrs nil, :tag :br, :content nil}
+                "\n\n\n\n\n            "
+                {:type :element,
+                 :attrs nil,
+                 :tag :span,
+                 :content
+                 ["title status: "
+                  {:type :element,
+                   :attrs nil,
+                   :tag :b,
+                   :content ["clean"]}]}
+                "\n            "
+                {:type :element, :attrs nil, :tag :br, :content nil}
+                "\n\n\n\n\n            "
+                {:type :element,
+                 :attrs nil,
+                 :tag :span,
+                 :content
+                 ["transmission: "
+                  {:type :element,
+                   :attrs nil,
+                   :tag :b,
+                   :content ["manual"]}]}
+                "\n            "
+                {:type :element, :attrs nil, :tag :br, :content nil}
+                "\n\n\n\n\n            "
+                {:type :element,
+                 :attrs nil,
+                 :tag :span,
+                 :content
+                 ["type: "
+                  {:type :element,
+                   :attrs nil,
+                   :tag :b,
+                   :content ["sedan"]}]}
+                "\n            "
+                {:type :element, :attrs nil, :tag :br, :content nil}
+                "\n\n    "]}
+              "\n    "]}
+            "\n\n    "
+            {:type :element,
+             :attrs {:id "postingbody"},
+             :tag :section,
+             :content
+             ["\n        "
+              {:type :element,
+               :attrs
+               {:class "print-information print-qrcode-container"},
+               :tag :div,
+               :content
+               ["\n            "
+                {:type :element,
+                 :attrs {:class "print-qrcode-label"},
+                 :tag :p,
+                 :content ["QR Code Link to This Post"]}
+                "\n            "
+                {:type :element,
+                 :attrs
+                 {:class "print-qrcode",
+                  :data-location
+                  "https://boise.craigslist.org/cto/d/2006-audi-a6-32-quattro/6359027948.html"},
+                 :tag :div,
+                 :content nil}
+                "\n        "]}
+              "\nSelling because family is growing and need a larger vehicle."
+              {:type :element, :attrs nil, :tag :br, :content nil}
+              "\n    "]}
+            "\n\n"
+            {:type :element,
+             :attrs {:class "notices"},
+             :tag :ul,
+             :content
+             ["\n            "
+              {:type :element,
+               :attrs nil,
+               :tag :li,
+               :content
+               ["do NOT contact me with unsolicited services or offers"]}
+              "\n"]}
+            "\n\n    "
+            {:type :element,
+             :attrs {:class "postinginfos"},
+             :tag :div,
+             :content
+             ["\n            "
+              {:type :element,
+               :attrs {:class "postinginfo"},
+               :tag :p,
+               :content ["post id: 6359027948"]}
+              "\n\n            "
+              {:type :element,
+               :attrs {:class "postinginfo reveal"},
+               :tag :p,
+               :content
+               ["posted: "
+                {:type :element,
+                 :attrs
+                 {:class "date timeago",
+                  :datetime "2017-10-24T10:16:52-0600"},
+                 :tag :time,
+                 :content ["2017-10-24 10:16am"]}]}
+              "\n\n            "
+              {:type :element,
+               :attrs {:class "postinginfo reveal"},
+               :tag :p,
+               :content
+               ["updated: "
+                {:type :element,
+                 :attrs
+                 {:class "date timeago",
+                  :datetime "2017-10-24T17:26:51-0600"},
+                 :tag :time,
+                 :content ["2017-10-24  5:26pm"]}]}
+              "\n\n               "
+              {:type :element,
+               :attrs {:class "postinginfo"},
+               :tag :p,
+               :content
+               ["\n                   "
+                {:type :element,
+                 :attrs
+                 {:href
+                  "https://accounts.craigslist.org/eaf?postingID=6359027948&token=U2FsdGVkX18xMjM5NjEyM9veFVrVuNVAUW90Ua2ZTtFPMbAoptOTSwuim4spamif",
+                  :class "email-friend"},
+                 :tag :a,
+                 :content ["email to friend"]}
+                "\n               "]}
+              "\n        "
+              {:type :element,
+               :attrs {:class "postinginfo"},
+               :tag :p,
+               :content
+               ["\n              "
+                {:type :element,
+                 :attrs
+                 {:class "bestof-link",
+                  :data-flag "9",
+                  :href
+                  "https://post.craigslist.org/flag?flagCode=9&postingID=6359027948",
+                  :title "nominate for best-of-CL"},
+                 :tag :a,
+                 :content
+                 ["\n                "
+                  {:type :element,
+                   :attrs {:class "bestof-icon"},
+                   :tag :span,
+                   :content ["♥ "]}
+                  {:type :element,
+                   :attrs {:class "bestof-text"},
+                   :tag :span,
+                   :content ["best of"]}
+                  "\n              "]}
+                " "
+                {:type :element,
+                 :attrs nil,
+                 :tag :sup,
+                 :content
+                 ["["
+                  {:type :element,
+                   :attrs
+                   {:href
+                    "https://www.craigslist.org/about/best-of-craigslist"},
+                   :tag :a,
+                   :content ["?"]}
+                  "]"]}
+                "\n        "]}
+              "\n        \n    "]}
+            "\n\n    "
+            {:type :element,
+             :attrs {:class "print-information print-pics"},
+             :tag :div,
+             :content nil}
+            "\n\n"]}
+          "\n\n"
+          {:type :element,
+           :attrs {:class "psa-box"},
+           :tag :div,
+           :content
+           ["\n"
+            {:type :element,
+             :attrs {:class "tsb"},
+             :tag :aside,
+             :content
+             ["\n    "
+              {:type :element,
+               :attrs nil,
+               :tag :ul,
+               :content
+               ["\n        "
+                {:type :element,
+                 :attrs nil,
+                 :tag :li,
+                 :content
+                 [{:type :element,
+                   :attrs
+                   {:href "https://www.craigslist.org/about/safety"},
+                   :tag :a,
+                   :content ["safety tips"]}
+                  "\n        "]}
+                {:type :element,
+                 :attrs nil,
+                 :tag :li,
+                 :content
+                 [{:type :element,
+                   :attrs
+                   {:href
+                    "https://www.craigslist.org/about/prohibited"},
+                   :tag :a,
+                   :content ["prohibited items"]}
+                  "\n        "]}
+                {:type :element,
+                 :attrs nil,
+                 :tag :li,
+                 :content
+                 [{:type :element,
+                   :attrs
+                   {:href
+                    "https://www.craigslist.org/about/recalled_items"},
+                   :tag :a,
+                   :content ["product recalls"]}
+                  "\n        "]}
+                {:type :element,
+                 :attrs nil,
+                 :tag :li,
+                 :content
+                 [{:type :element,
+                   :attrs
+                   {:href "https://www.craigslist.org/about/scams"},
+                   :tag :a,
+                   :content ["avoiding scams"]}
+                  "\n    "]}]}
+              "\n"]}]}
+          "\n\n"
+          {:type :element,
+           :attrs {:class "avoid-scams"},
+           :tag :div,
+           :content
+           ["\n"
+            {:type :element,
+             :attrs {:class "tsb"},
+             :tag :aside,
+             :content
+             ["\n    "
+              {:type :element,
+               :attrs nil,
+               :tag :p,
+               :content
+               ["\n        "
+                {:type :element,
+                 :attrs
+                 {:href "https://www.craigslist.org/about/scams"},
+                 :tag :a,
+                 :content ["Avoid scams, deal locally"]}
+                "\n        "
+                {:type :element,
+                 :attrs nil,
+                 :tag :em,
+                 :content
+                 ["Beware wiring (e.g. Western Union), cashier checks, money orders, shipping."]}
+                "\n    "]}
+              "\n"]}
+            "\n"]}
+          "\n\n        "]}
+        "\n"
+        {:type :element,
+         :attrs nil,
+         :tag :footer,
+         :content
+         ["\n    "
+          {:type :element,
+           :attrs {:class "clfooter"},
+           :tag :ul,
+           :content
+           ["\n        "
+            {:type :element,
+             :attrs nil,
+             :tag :li,
+             :content
+             ["©  "
+              {:type :element,
+               :attrs {:class "desktop"},
+               :tag :span,
+               :content ["craigslist"]}
+              {:type :element,
+               :attrs {:class "mobile"},
+               :tag :span,
+               :content ["CL"]}]}
+            "\n        "
+            {:type :element,
+             :attrs nil,
+             :tag :li,
+             :content
+             [{:type :element,
+               :attrs {:href "https://www.craigslist.org/about/help/"},
+               :tag :a,
+               :content ["help"]}]}
+            "\n        "
+            {:type :element,
+             :attrs nil,
+             :tag :li,
+             :content
+             [{:type :element,
+               :attrs {:href "https://www.craigslist.org/about/scams"},
+               :tag :a,
+               :content ["safety"]}]}
+            "\n        "
+            {:type :element,
+             :attrs {:class "desktop"},
+             :tag :li,
+             :content
+             [{:type :element,
+               :attrs
+               {:href
+                "https://www.craigslist.org/about/privacy.policy"},
+               :tag :a,
+               :content ["privacy"]}]}
+            "\n        "
+            {:type :element,
+             :attrs {:class "desktop"},
+             :tag :li,
+             :content
+             [{:type :element,
+               :attrs
+               {:href "https://forums.craigslist.org/?forumID=8"},
+               :tag :a,
+               :content ["feedback"]}]}
+            "\n        "
+            {:type :element,
+             :attrs {:class "desktop"},
+             :tag :li,
+             :content
+             [{:type :element,
+               :attrs
+               {:href
+                "https://www.craigslist.org/about/craigslist_is_hiring"},
+               :tag :a,
+               :content ["cl jobs"]}]}
+            "\n        "
+            {:type :element,
+             :attrs nil,
+             :tag :li,
+             :content
+             [{:type :element,
+               :attrs
+               {:href "//www.craigslist.org/about/terms.of.use.en"},
+               :tag :a,
+               :content ["terms"]}]}
+            "\n        "
+            {:type :element,
+             :attrs nil,
+             :tag :li,
+             :content
+             [{:type :element,
+               :attrs {:href "https://www.craigslist.org/about/"},
+               :tag :a,
+               :content ["about"]}]}
+            "\n        "
+            {:type :element,
+             :attrs
+             {:class "fsel desktop linklike", :data-mode "mobile"},
+             :tag :li,
+             :content ["mobile"]}
+            "\n        "
+            {:type :element,
+             :attrs
+             {:class "fsel mobile linklike", :data-mode "regular"},
+             :tag :li,
+             :content ["desktop"]}
+            "\n    "]}
+          "\n"]}
+        "\n    "]}
+      "\n\n    \n        "
+      {:type :element,
+       :attrs {:type "text/javascript"},
+       :tag :script,
+       :content
+       ["<!--\nvar countOfTotalText = \"image {count} of {total}\";\nvar imageConfig = {\"1\":{\"hostname\":\"https://images.craigslist.org\",\"sizes\":[\"50x50c\",\"300x300\",\"600x450\",\"1200x900\"]},\"0\":{\"hostname\":\"https://images.craigslist.org\",\"sizes\":[\"50x50c\",\"300x300\",\"600x450\"]},\"2\":{\"hostname\":\"https://images.craigslist.org\",\"sizes\":[\"50x50c\",\"300x300\",\"600x450\",\"1200x900\"]}};\nvar maptileBaseUrl = \"//map{s}.craigslist.org/t09/{z}/{x}/{y}.png\";\nvar pID = \"6359027948\";\n-->"]}
+      "\n    \n"
+      {:type :element,
+       :attrs
+       {:src
+        "//www.craigslist.org/js/general-concat.min.js?v=1eade4d753066c8e994c8cc2ee4c4db9",
+        :type "text/javascript"},
+       :tag :script,
+       :content nil}
+      "\n"
+      {:type :element,
+       :attrs {:type "text/javascript"},
+       :tag :script,
+       :content
+       ["<!--\n        var iframe = document.createElement('iframe');\n        iframe.style.display = 'none';\n        iframe.src = '//www.' + CL.url.baseDomain + '/static/localstorage.html?v=51a29e41f8e978141e4085ed4a77d170';\n        document.body.insertBefore(iframe, null);\n    -->"]}
+      "\n    \n"
+      {:type :element,
+       :attrs
+       {:src
+        "//www.craigslist.org/js/postings-concat.min.js?v=93262aff5399134f031c978ce9833c24",
+        :type "text/javascript"},
+       :tag :script,
+       :content nil}
+      "\n"
+      "\n"
+      "\n"]}]}]}
