@@ -8,7 +8,12 @@
    hickory.core)
   (:gen-class))
 
+(def url-craigslist-sites "https://craigslist.org/about/sites#US")
 
+(defn get-craigslist-us-sites []
+  (println "get-craigslist-us-sites")
+  (let [htree (-> (client/get url-craigslist-sites) :body parse as-hickory)]
+        (pp/pprint (:content (nth (:content (nth (:content (nth (:content (nth (:content (nth (:content htree) 1)) 2)) 3)) 3)) 7)))))
 
 (defn trim-attr-group
   "Scrape the attributes from the side column of craigslist. e.g. vin, transmission, cylinders..."
@@ -32,27 +37,22 @@
            (trim-attr-group attr-group attributes (inc index)))))
      attributes)))
 
-  
 
-; (def url "https://boise.craigslist.org/cto/d/2007-audi-a4-20tfsi/6339143320.html")
 (def url "https://boise.craigslist.org/cto/d/2006-audi-a6-32-quattro/6359027948.html")
-(def site-htree  (-> (client/get url) :body parse as-hickory))
-(def title       (first ( :content (first
-                                    (-> (s/select
-                                         (s/descendant
-                                          (s/id "titletextonly"))
-                                         site-htree))))))
-(def description (last ( :content (first (-> (s/select (s/descendant (s/id "postingbody")) site-htree))))))
-(def summary     (first (:content (first (:content (nth (:content (first (-> (s/select (s/descendant (s/class "attrgroup")) site-htree))))1))))))
-(def postinginfos      ( :content (first (-> (s/select (s/descendant (s/class "postinginfos")) site-htree)))))
-(def postdate (first (:content (first (-> (s/select (s/descendant (s/class "timeago")) site-htree))))))
-(def price (first (:content (first (-> (s/select (s/descendant (s/class "price")) site-htree))))))
-(def attrgroup   (:content (nth (-> (s/select (s/descendant (s/class "attrgroup")) site-htree))1)))
+(def site-htree   (-> (client/get url) :body parse as-hickory))
+(def title        (first ( :content (first (-> (s/select (s/descendant (s/id "titletextonly")) site-htree))))))
+(def description  (last ( :content (first (-> (s/select (s/descendant (s/id "postingbody")) site-htree))))))
+(def summary      (first (:content (first (:content (nth (:content (first (-> (s/select (s/descendant (s/class "attrgroup")) site-htree))))1))))))
+(def postinginfos ( :content (first (-> (s/select (s/descendant (s/class "postinginfos")) site-htree)))))
+(def postdate     (first (:content (first (-> (s/select (s/descendant (s/class "timeago")) site-htree))))))
+(def price        (first (:content (first (-> (s/select (s/descendant (s/class "price")) site-htree))))))
+(def attrgroup    (:content (nth (-> (s/select (s/descendant (s/class "attrgroup")) site-htree))1)))
 
 
 (defn -main
   "I don't do a whole lot ... yet."
   [& args]
+  (let [craigslist-sites (get-craigslist-us-sites)])
   (let [auto {:title title
               :description description
               :summary summary
