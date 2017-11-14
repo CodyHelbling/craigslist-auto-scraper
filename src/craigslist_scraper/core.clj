@@ -2,7 +2,8 @@
   (:require
    [hickory.select :as s]
    [clj-http.client :as client]
-   [clojure.string :as string])
+   [clojure.string :as string]
+   [clojure.pprint :as pp])
   (:use
    hickory.core)
   (:gen-class))
@@ -11,24 +12,26 @@
 
 (defn trim-attr-group
   ([attr-group]
-   (let [attribute-name    (first (:content (nth attr-group 1)))
-         attribute-content (nth   (:content (nth attr-group 1))1)]
+   (println "ONE")
      (if (> (count attr-group) 0)
-       (if attr-group
-         (trim-attr-group attr-group {(keyword attribute-name) attribute-content} 1)
-         (trim-attr-group attr-group {} 1))
-       {})))
+       (let [attribute-name    (first (:content (nth attr-group 1)))
+             attribute-content (first (:content (nth (:content (nth attr-group 1))1)))]
+         (if attribute-name
+           (trim-attr-group attr-group {(keyword attribute-name) attribute-content} 1)
+           (trim-attr-group attr-group {} 1)))
+         {}))
   ([attr-group attributes index]
-   (let [attribute-name    (first (:content (nth attr-group index)))
-         attribute-content (nth   (:content (nth attr-group index))1)]
-     (if (> (count attr-group) index)
-       (do
-         (println "Count: " (count attr-group) " Index: " index)
-         (println (> (count attr-group) index))
-         (if attr-group
+   (println "\n\nINDEX: " index )
+   (if (> (count attr-group) index)
+     (do
+       (let [attribute-name    (first (:content (nth attr-group index)))
+             attribute-content (first (:content (nth   (:content (nth attr-group index))1)))]
+         (println index "- attribute-name: " attribute-name)
+         (pp/pprint  attributes)
+         (if attribute-name
            (trim-attr-group attr-group (conj attributes {(keyword attribute-name) attribute-content}) (inc index))
-           (trim-attr-group attr-group attributes                                                     (inc index)))
-         attributes)))))
+           (trim-attr-group attr-group attributes (inc index)))))
+     attributes)))
 
   
 
@@ -63,7 +66,7 @@
               :postid (subs (first (last (last (nth postinginfos 1))))9)
               :postdate postdate
               :price price
-              :attrgroupf (trim-attr-group attrgroup)
+              :attrgroupf (str (trim-attr-group attrgroup))
               :attrgroup  (nth (:content (nth attrgroup 1))1)}]
     (println auto)))
   ; (trim-attr-group attrgroup)))
