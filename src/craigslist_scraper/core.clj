@@ -12,7 +12,6 @@
 
 (defn trim-attr-group
   ([attr-group]
-   (println "ONE")
      (if (> (count attr-group) 0)
        (let [attribute-name    (first (:content (nth attr-group 1)))
              attribute-content (first (:content (nth (:content (nth attr-group 1))1)))]
@@ -21,13 +20,12 @@
            (trim-attr-group attr-group {} 1)))
          {}))
   ([attr-group attributes index]
-   (println "\n\nINDEX: " index )
    (if (> (count attr-group) index)
      (do
        (let [attribute-name    (first (:content (nth attr-group index)))
              attribute-content (first (:content (nth   (:content (nth attr-group index))1)))]
-         (println index "- attribute-name: " attribute-name)
-         (pp/pprint  attributes)
+         ; (println index "- attribute-name: " attribute-name)
+         ; (pp/pprint  attributes)
          (if attribute-name
            (trim-attr-group attr-group (conj attributes {(keyword attribute-name) attribute-content}) (inc index))
            (trim-attr-group attr-group attributes (inc index)))))
@@ -66,7 +64,6 @@
               :postid (subs (first (last (last (nth postinginfos 1))))9)
               :postdate postdate
               :price price
-              :attrgroupf (str (trim-attr-group attrgroup))
-              :attrgroup  (nth (:content (nth attrgroup 1))1)}]
-    (println auto)))
+              :attrgroup (trim-attr-group attrgroup)}]
+    (pp/pprint auto)))
   ; (trim-attr-group attrgroup)))
