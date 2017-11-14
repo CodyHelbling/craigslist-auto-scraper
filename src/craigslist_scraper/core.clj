@@ -11,12 +11,13 @@
 
 
 (defn trim-attr-group
+  "Scrape the attributes from the side column of craigslist. e.g. vin, transmission, cylinders..."
   ([attr-group]
      (if (> (count attr-group) 0)
        (let [attribute-name    (first (:content (nth attr-group 1)))
              attribute-content (first (:content (nth (:content (nth attr-group 1))1)))]
          (if attribute-name
-           (trim-attr-group attr-group {(keyword attribute-name) attribute-content} 1)
+           (trim-attr-group attr-group {(string/lower-case (keyword attribute-name)) attribute-content} 1)
            (trim-attr-group attr-group {} 1)))
          {}))
   ([attr-group attributes index]
@@ -27,7 +28,7 @@
          ; (println index "- attribute-name: " attribute-name)
          ; (pp/pprint  attributes)
          (if attribute-name
-           (trim-attr-group attr-group (conj attributes {(keyword attribute-name) attribute-content}) (inc index))
+           (trim-attr-group attr-group (conj attributes {(string/lower-case (keyword attribute-name)) attribute-content}) (inc index))
            (trim-attr-group attr-group attributes (inc index)))))
      attributes)))
 
@@ -52,18 +53,12 @@
 (defn -main
   "I don't do a whole lot ... yet."
   [& args]
-  ; (dorun (map clojure.pprint/pprint site-htree))
-  ; (clojure.pprint/pprint (str "title: " title))
-  ; (clojure.pprint/pprint (str "description: " description))
-  ; (clojure.pprint/pprint (str "summary: " summary))
-  ; (clojure.pprint/pprint (str "post id: " (subs (first (last (last (nth postinginfos 1))))9)))
-  ; (clojure.pprint/pprint site-htree (clojure.java.io/writer "craigslist.hickory"))
   (let [auto {:title title
               :description description
               :summary summary
               :postid (subs (first (last (last (nth postinginfos 1))))9)
               :postdate postdate
               :price price
-              :attrgroup (trim-attr-group attrgroup)}]
+              :auto-attributes (trim-attr-group attrgroup)}]
     (pp/pprint auto)))
   ; (trim-attr-group attrgroup)))
