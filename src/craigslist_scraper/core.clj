@@ -22,14 +22,42 @@
 ;; Scrape Auto Links From Site
 (def url-craigslist-autos "https://boise.craigslist.org/search/cta")
 (def craigslist-autos-htree (-> (client/get url-craigslist-autos) :body parse as-hickory))
-(def craigslist-autos-links (-> (s/select (s/descendant (s/attr "href")) craigslist-autos-htree)))
+(def craigslist-autos-links (-> (s/select (s/descendant (s/class "hdrlnk")) craigslist-autos-htree)))
 
 ;; Scrape Craiglist's United States Links
 (def url-craigslist-sites "https://craigslist.org/about/sites#US")
 (def craigslist-sites-htree (-> (client/get url-craigslist-sites) :body parse as-hickory))
 (def craigslist-links (-> (s/select (s/descendant (s/attr "href")) (nth (:content (nth (:content (nth (:content (nth (:content (nth (:content craigslist-sites-htree) 1)) 2)) 3)) 3)) 7))))
 
+(defn get-craigslist-autos
+  ; Move into craigslist scraper namespace
+  ([hickory-links]
+   (println "get-craigslist-autos")
+   (if (> (count hickory-links) 0)
+     (let [auto-name (first (:content (first hickory-links)))
+           auto-link (:href (:attrs (first hickory-links)))
+           auto-id   (:data-id (:attrs (first hickory-links)))]
+       (if auto-link
+         (get-craigslist-autos hickory-links [{:auto-name auto-name :auto-link auto-link :auto-id auto-id}] 1)
+         (get-craigslist-autos hickory-links [] 1)))
+     []))
+  ([hickory-links autos index]
+   (if (> (count hickory-links) index)
+     (let [auto-name (first (:content  (nth hickory-links index)))
+           auto-link (:href (:attrs    (nth hickory-links index)))
+           auto-id   (:data-id (:attrs (nth hickory-links index)))]
+       ; (println "auto-name: " auto-name)
+       ; (println "auto-link: " auto-link)
+       ; (println "index:     " index)
+       ; (println "count:     " (count hickory-links))
+       ; (println "autos:     " autos)
+       (if auto-link
+         (get-craigslist-autos hickory-links (conj autos {:auto-name auto-name :auto-link auto-link :auto-id auto-id}) (inc index))
+         (get-craigslist-autos hickory-links autos  (inc index))))
+     autos)))
+
 (defn get-craigslist-us-sites
+  ; Move this into craigslist scraper namespace
   ([hickory-links]
    (println "get-craigslist-us-sites")
    (println (first (:content (first hickory-links))))
@@ -90,4 +118,4 @@
               :price price
               :auto-attributes (trim-attr-group attrgroup)}]
     (pp/pprint auto))
-  (pp/pprint craigslist-autos-links))
+  (pp/pprint (get-craigslist-autos craigslist-autos-links)))
